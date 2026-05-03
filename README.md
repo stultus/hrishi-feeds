@@ -39,7 +39,9 @@ The default `GITHUB_TOKEN` is sufficient for the poll job's commit step (`permis
 
 - `poll.yml` runs at `0 4 * * *` UTC and on manual dispatch. It checks out the repo, runs both
   poll scripts, and commits `data/` only if `git diff --quiet -- data/` returns non-zero. The
-  commit message is `chore: feeds update [skip ci]` so it does not retrigger itself.
+  commit message is `chore: feeds update`. `poll.yml` only triggers on schedule and manual
+  dispatch (not push), so there is no self-trigger risk; a clean message also lets `dispatch.yml`
+  fire on the bot commit.
 - `dispatch.yml` triggers on pushes to `main` that touch `data/**`. It fans out
   `repository_dispatch` events with type `feeds-updated` to the two consumer repos in parallel
   (matrix strategy, `fail-fast: false`).
