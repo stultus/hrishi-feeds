@@ -4,7 +4,7 @@ Personal data ingestion. Polls Letterboxd and Goodreads RSS feeds on a schedule,
 to versioned JSON in `data/`, and triggers downstream Hugo rebuilds via `repository_dispatch`.
 
 The repo is single-purpose: scheduled poll → diff data files → commit on real change → notify
-consumers (`stultus/stultus.in`, `stultus/notes`).
+consumers (`stultus/stultus.in`, `stultus/notes-hugo`).
 
 ## Layout
 
@@ -31,7 +31,7 @@ Set in **Settings → Secrets and variables → Actions**:
 | `LETTERBOXD_USERNAME` | `poll.yml` | e.g., `stultus` |
 | `GOODREADS_USER_ID` | `poll.yml` | numeric, from your Goodreads profile URL |
 | `GOODREADS_RSS_KEY` | `poll.yml` | the `key=` query param from the RSS link on your "read" shelf |
-| `SITE_DEPLOY_PAT` | `dispatch.yml` | fine-grained PAT with `contents: write` on `stultus/stultus.in` and `stultus/notes` (needed to send `repository_dispatch`) |
+| `SITE_DEPLOY_PAT` | `dispatch.yml` | fine-grained PAT with `contents: write` on `stultus/stultus.in` and `stultus/notes-hugo` (needed to send `repository_dispatch`) |
 
 The default `GITHUB_TOKEN` is sufficient for the poll job's commit step (`permissions: contents: write` is set in the workflow).
 
