@@ -90,16 +90,26 @@ the run, so schema drift is caught immediately.
 
 RSS only returns the most recent ~50 entries. To seed `data/*.json` with full history:
 
-**Letterboxd**: Settings → Import & Export → "Export your data" → unzip is **not** required, the
-seeder reads the ZIP directly.
+**Letterboxd** — recommended path is to scrape your public diary, because the diary HTML carries
+`data-viewing-id` which matches the RSS GUID exactly (`letterboxd-watch-NNNN`). That means seed +
+RSS share an id space and dedupe cleanly forever after.
 
 ```bash
-uv run scripts/seed_from_csv.py letterboxd ~/Downloads/letterboxd-export.zip
+LETTERBOXD_USERNAME=stultus uv run scripts/seed_letterboxd_scrape.py
 ```
 
-This reads `diary.csv` (Watched Date, Rating, Rewatch, Letterboxd URI) and enriches with
-`reviews.csv` if present. The Letterboxd URI is used as the dedup `id`, so subsequent RSS polls
-upsert cleanly.
+Defaults to a 1.5s delay between pages and a real-browser User-Agent. ~9 pages × 50 rows ≈ 450
+movies in ~15 seconds. If your IP is bot-flagged (rare for residential networks), pass
+`--user-agent` to override. Run from your home machine, not a cloud / VPN IP.
+
+Fields populated by the scrape: `id`, `title`, `year`, `watched_date`, `rating`, `rewatch`,
+`slug`, `letterboxd_url`. The diary listing does not expose `review_html` or `tmdb_id`; the
+nightly RSS poll fills both for the most recent ~50 watches as they appear in the feed.
+
+Alternatively, the CSV path (`scripts/seed_from_csv.py letterboxd path/to/letterboxd-export.zip`)
+also works but uses a different id format (`Letterboxd URI` short link), so the next RSS poll
+will produce ~50 duplicates of your most recent watches that you'd have to clean up manually. The
+scrape avoids that.
 
 **Goodreads**: My Books → Import and export → Export Library → download CSV.
 

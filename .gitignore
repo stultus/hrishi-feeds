@@ -4,3 +4,6 @@ __pycache__/
 .env
 .uv/
 .DS_Store
+goodreads_library_export.csv
+letterboxd-export*.zip
+letterboxd-*/
