@@ -1,0 +1,14 @@
+[project]
+name = "hrishi-feeds"
+version = "0.1.0"
+description = "Personal data ingestion: Letterboxd + Goodreads RSS to versioned JSON."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "feedparser>=6.0.11",
+    "python-dateutil>=2.9.0",
+    "python-slugify>=8.0.4",
+]
+
+[tool.uv]
+package = false
