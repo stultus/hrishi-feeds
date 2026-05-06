@@ -17,6 +17,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Push as the PAT user so downstream workflows (dispatch.yml) see the
+          # commit. Pushes authenticated with the default GITHUB_TOKEN do not
+          # trigger other workflows — that's a GitHub Actions safeguard.
+          token: ${{ secrets.SITE_DEPLOY_PAT }}
 
       - uses: actions/setup-python@v5
         with:
