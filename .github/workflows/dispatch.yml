@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "data/**"
+  workflow_dispatch:
 
 jobs:
   notify:
