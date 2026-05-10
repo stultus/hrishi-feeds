@@ -1,5 +1,17 @@
 [
   {
+    "id": "letterboxd-watch-1309264786",
+    "letterboxd_url": "https://letterboxd.com/stultus/film/vaazha-ii/",
+    "rating": 3.0,
+    "review_html": "<p><img src=\"https://a.ltrbxd.com/resized/film-poster/1/2/3/1/4/5/6/1231456-vaazha-ii-0-600-0-900-crop.jpg?v=fa9ddbc35a\" /></p> <p>Watched on Friday May 8, 2026.</p>",
+    "rewatch": false,
+    "slug": "vaazha-ii-2026",
+    "title": "Vaazha II",
+    "tmdb_id": "1336770",
+    "watched_date": "2026-05-08",
+    "year": 2026
+  },
+  {
     "id": "letterboxd-watch-1305579874",
     "letterboxd_url": "https://letterboxd.com/stultus/film/prathichaya/",
     "rating": 2.0,
