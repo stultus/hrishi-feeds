@@ -38,7 +38,7 @@ BOOK_FIELDS = {
     "review_html": (str, type(None)),
     "isbn": (str, type(None)),
     "cover_url": (str, type(None)),
-    "goodreads_url": str,
+    "goodreads_url": (str, type(None)),
     "slug": str,
 }
 
