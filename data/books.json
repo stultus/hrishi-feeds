@@ -1,12 +1,25 @@
 [
   {
+    "added_date": "2026-05-23",
+    "author": "Vinil Paul",
+    "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1521558799l/39330706._SY475_.jpg",
+    "goodreads_url": "https://www.goodreads.com/review/show/8624123889?utm_medium=api&utm_source=rss",
+    "id": "39330706",
+    "isbn": null,
+    "rating": null,
+    "read_date": "2026-05-23",
+    "review_html": null,
+    "slug": "look-our-roads-malayalam-edition-paul",
+    "title": "Look, Our Roads! (Malayalam Edition)"
+  },
+  {
     "added_date": "2026-05-22",
     "author": "ഇന്നസെൻറ് | Innocent",
     "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1397411565l/21901561.jpg",
     "goodreads_url": "https://www.goodreads.com/review/show/8601208182?utm_medium=api&utm_source=rss",
     "id": "21901561",
     "isbn": "9383197137",
-    "rating": null,
+    "rating": 3,
     "read_date": "2026-05-22",
     "review_html": null,
     "slug": "daivtte-shlyppettuttrut-daivathe-shalyappedutharuthu-innocent",
