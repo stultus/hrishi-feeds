@@ -1,6 +1,45 @@
 [
   {
     "added_date": "2026-05-23",
+    "author": "Ramesh Pisharody",
+    "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677387798l/123013286._SY475_.jpg",
+    "goodreads_url": "https://www.goodreads.com/review/show/8624191960?utm_medium=api&utm_source=rss",
+    "id": "123013286",
+    "isbn": "9355493541",
+    "rating": 2,
+    "read_date": "2026-05-23",
+    "review_html": null,
+    "slug": "ciri-purnntt-jiivitngng-chiri-puranda-jeevithangal-pisharody",
+    "title": "ചിരി പുരണ്ട ജീവിതങ്ങൾ [Chiri Puranda Jeevithangal]"
+  },
+  {
+    "added_date": "2026-05-23",
+    "author": "G.R. Indugopan",
+    "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1716287865l/213715368.jpg",
+    "goodreads_url": "https://www.goodreads.com/review/show/8624957577?utm_medium=api&utm_source=rss",
+    "id": "213715368",
+    "isbn": "9355498276",
+    "rating": 3,
+    "read_date": "2026-05-23",
+    "review_html": null,
+    "slug": "m-dd-i-mdraas-indugopan",
+    "title": "മർഡർ ഇൻ മദ്രാസ്"
+  },
+  {
+    "added_date": "2026-05-23",
+    "author": "Sathyan Anthikkad",
+    "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1719303037l/215211833._SY475_.jpg",
+    "goodreads_url": "https://www.goodreads.com/review/show/8624376394?utm_medium=api&utm_source=rss",
+    "id": "215211833",
+    "isbn": "8182666120",
+    "rating": 3,
+    "read_date": "2026-05-23",
+    "review_html": null,
+    "slug": "sesham-vellithirayil-sheessn-vellllittiryi-malayalam-edition-anthikkad",
+    "title": "Sesham Vellithirayil | ശേഷം വെള്ളിത്തിരയിൽ (Malayalam Edition)"
+  },
+  {
+    "added_date": "2026-05-23",
     "author": "Vinil Paul",
     "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1521558799l/39330706._SY475_.jpg",
     "goodreads_url": "https://www.goodreads.com/review/show/8624123889?utm_medium=api&utm_source=rss",
@@ -13,13 +52,13 @@
     "title": "Look, Our Roads! (Malayalam Edition)"
   },
   {
-    "added_date": "2026-05-22",
+    "added_date": "2026-05-23",
     "author": "ഇന്നസെൻറ് | Innocent",
     "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1397411565l/21901561.jpg",
     "goodreads_url": "https://www.goodreads.com/review/show/8601208182?utm_medium=api&utm_source=rss",
     "id": "21901561",
     "isbn": "9383197137",
-    "rating": 3,
+    "rating": 2,
     "read_date": "2026-05-22",
     "review_html": null,
     "slug": "daivtte-shlyppettuttrut-daivathe-shalyappedutharuthu-innocent",
