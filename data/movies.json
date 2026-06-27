@@ -1,5 +1,17 @@
 [
   {
+    "id": "letterboxd-watch-1370095240",
+    "letterboxd_url": "https://letterboxd.com/stultus/film/blast-2026/",
+    "rating": 2.5,
+    "review_html": "<p><img src=\"https://a.ltrbxd.com/resized/film-poster/1/3/9/1/9/9/1/1391991-blast-2026-0-600-0-900-crop.jpg?v=da098fccbb\" /></p> <p>Watched on Friday June 26, 2026.</p>",
+    "rewatch": false,
+    "slug": "blast-2026",
+    "title": "Blast",
+    "tmdb_id": "1515729",
+    "watched_date": "2026-06-26",
+    "year": 2026
+  },
+  {
     "id": "letterboxd-watch-1312168075",
     "letterboxd_url": "https://letterboxd.com/stultus/film/striking-distance/",
     "rating": 1.5,
