@@ -1,5 +1,29 @@
 [
   {
+    "id": "letterboxd-watch-1394141524",
+    "letterboxd_url": "https://letterboxd.com/stultus/film/midnight-in-paris/",
+    "rating": 5.0,
+    "review_html": "<p><img src=\"https://a.ltrbxd.com/resized/sm/upload/1e/0j/vs/s6/xxSopLYATHXSepXcEaBh9Gazv6p-0-600-0-900-crop.jpg?v=6073ba801b\" /></p> <p>Watched on Saturday July 11, 2026.</p>",
+    "rewatch": true,
+    "slug": "midnight-in-paris-2011",
+    "title": "Midnight in Paris",
+    "tmdb_id": "59436",
+    "watched_date": "2026-07-11",
+    "year": 2011
+  },
+  {
+    "id": "letterboxd-watch-1394141189",
+    "letterboxd_url": "https://letterboxd.com/stultus/film/sentimental-value-2025/",
+    "rating": 5.0,
+    "review_html": "<p><img src=\"https://a.ltrbxd.com/resized/film-poster/1/0/1/3/3/5/7/1013357-sentimental-value-2025-0-600-0-900-crop.jpg?v=e89e64a309\" /></p> <p>Watched on Saturday July 11, 2026.</p>",
+    "rewatch": false,
+    "slug": "sentimental-value-2025",
+    "title": "Sentimental Value",
+    "tmdb_id": "1124566",
+    "watched_date": "2026-07-11",
+    "year": 2025
+  },
+  {
     "id": "letterboxd-watch-1382481331",
     "letterboxd_url": "https://letterboxd.com/stultus/film/mollywood-times/",
     "rating": 2.5,
