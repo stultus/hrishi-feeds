@@ -1,5 +1,53 @@
 [
   {
+    "id": "letterboxd-watch-1417714126",
+    "letterboxd_url": "https://letterboxd.com/stultus/film/parimala-and-co/",
+    "rating": 2.0,
+    "review_html": "<p><img src=\"https://a.ltrbxd.com/resized/film-poster/1/4/7/0/5/7/6/1470576-parimala-co-0-600-0-900-crop.jpg?v=90333d4472\" /></p> <p>Watched on Monday July 27, 2026.</p>",
+    "rewatch": false,
+    "slug": "parimala-and-co-2026",
+    "title": "Parimala and Co",
+    "tmdb_id": "1602337",
+    "watched_date": "2026-07-27",
+    "year": 2026
+  },
+  {
+    "id": "letterboxd-watch-1417711242",
+    "letterboxd_url": "https://letterboxd.com/stultus/film/in-her-shoes/",
+    "rating": 2.5,
+    "review_html": "<p><img src=\"https://a.ltrbxd.com/resized/sm/upload/ek/k0/g7/9x/4jqnazZX2bh8UMUS8rl4nHWWtyb-0-600-0-900-crop.jpg?v=7ceb5bfa09\" /></p> <p>Watched on Sunday July 26, 2026.</p>",
+    "rewatch": false,
+    "slug": "in-her-shoes-2005",
+    "title": "In Her Shoes",
+    "tmdb_id": "11931",
+    "watched_date": "2026-07-26",
+    "year": 2005
+  },
+  {
+    "id": "letterboxd-watch-1417707011",
+    "letterboxd_url": "https://letterboxd.com/stultus/film/paddy-chayefsky-collector-of-words/",
+    "rating": 2.5,
+    "review_html": "<p><img src=\"https://a.ltrbxd.com/resized/film-poster/1/3/8/1/2/6/4/1381264-paddy-chayefsky-collector-of-words-0-600-0-900-crop.jpg?v=304000250f\" /></p> <p>Watched on Sunday July 26, 2026.</p>",
+    "rewatch": false,
+    "slug": "paddy-chayefsky-collector-of-words-2025",
+    "title": "Paddy Chayefsky: Collector of Words",
+    "tmdb_id": "1504996",
+    "watched_date": "2026-07-26",
+    "year": 2025
+  },
+  {
+    "id": "letterboxd-watch-1417703062",
+    "letterboxd_url": "https://letterboxd.com/stultus/film/the-odyssey-2026/",
+    "rating": 3.5,
+    "review_html": "<p><img src=\"https://a.ltrbxd.com/resized/film-poster/1/2/5/5/3/9/4/1255394-the-odyssey-2026-0-600-0-900-crop.jpg?v=1eed046d0c\" /></p> <p>Watched on Saturday July 25, 2026.</p>",
+    "rewatch": false,
+    "slug": "the-odyssey-2026",
+    "title": "The Odyssey",
+    "tmdb_id": "1368337",
+    "watched_date": "2026-07-25",
+    "year": 2026
+  },
+  {
     "id": "letterboxd-watch-1394141524",
     "letterboxd_url": "https://letterboxd.com/stultus/film/midnight-in-paris/",
     "rating": 5.0,
