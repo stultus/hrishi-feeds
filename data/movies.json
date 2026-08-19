@@ -1,5 +1,29 @@
 [
   {
+    "id": "letterboxd-watch-1457521999",
+    "letterboxd_url": "https://letterboxd.com/stultus/film/the-odyssey-2026/1/",
+    "rating": 4.0,
+    "review_html": "<p><img src=\"https://a.ltrbxd.com/resized/film-poster/1/2/5/5/3/9/4/1255394-the-odyssey-2026-0-600-0-900-crop.jpg?v=1eed046d0c\" /></p> <p>Watched on Tuesday August 18, 2026.</p>",
+    "rewatch": true,
+    "slug": "the-odyssey-2026",
+    "title": "The Odyssey",
+    "tmdb_id": "1368337",
+    "watched_date": "2026-08-18",
+    "year": 2026
+  },
+  {
+    "id": "letterboxd-watch-1457521528",
+    "letterboxd_url": "https://letterboxd.com/stultus/film/spider-man-brand-new-day/",
+    "rating": 3.0,
+    "review_html": "<p><img src=\"https://a.ltrbxd.com/resized/film-poster/8/7/2/8/7/1/872871-spider-man-brand-new-day-0-600-0-900-crop.jpg?v=ebe6beb4fc\" /></p> <p>Watched on Monday August 10, 2026.</p>",
+    "rewatch": false,
+    "slug": "spider-man-brand-new-day-2026",
+    "title": "Spider-Man: Brand New Day",
+    "tmdb_id": "969681",
+    "watched_date": "2026-08-10",
+    "year": 2026
+  },
+  {
     "id": "letterboxd-watch-1417714126",
     "letterboxd_url": "https://letterboxd.com/stultus/film/parimala-and-co/",
     "rating": 2.0,
