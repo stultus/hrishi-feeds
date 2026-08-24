@@ -1,5 +1,41 @@
 [
   {
+    "id": "letterboxd-watch-1465185406",
+    "letterboxd_url": "https://letterboxd.com/stultus/film/good-news-2025/",
+    "rating": 3.0,
+    "review_html": "<p><img src=\"https://a.ltrbxd.com/resized/film-poster/1/1/7/8/9/4/3/1178943-good-news-2025-0-600-0-900-crop.jpg?v=dd6e3a313b\" /></p> <p>Watched on Sunday August 23, 2026.</p>",
+    "rewatch": false,
+    "slug": "good-news-2025",
+    "title": "Good News",
+    "tmdb_id": "1296404",
+    "watched_date": "2026-08-23",
+    "year": 2025
+  },
+  {
+    "id": "letterboxd-watch-1464834978",
+    "letterboxd_url": "https://letterboxd.com/stultus/film/dc/",
+    "rating": 3.5,
+    "review_html": "<p><img src=\"https://a.ltrbxd.com/resized/film-poster/1/3/5/6/8/1/5/1356815-dc-0-600-0-900-crop.jpg?v=42d320c317\" /></p> <p>Watched on Sunday August 23, 2026.</p>",
+    "rewatch": false,
+    "slug": "dc-2026",
+    "title": "DC",
+    "tmdb_id": "1479832",
+    "watched_date": "2026-08-23",
+    "year": 2026
+  },
+  {
+    "id": "letterboxd-watch-1465189553",
+    "letterboxd_url": "https://letterboxd.com/stultus/film/maa-inti-bangaram/",
+    "rating": null,
+    "review_html": "<p><img src=\"https://a.ltrbxd.com/resized/film-poster/1/1/1/1/3/3/6/1111336-maa-inti-bangaram-0-600-0-900-crop.jpg?v=fc213afb97\" /></p> <p>Watched on Saturday August 22, 2026.</p>",
+    "rewatch": false,
+    "slug": "maa-inti-bangaram-2026",
+    "title": "Maa Inti Bangaram",
+    "tmdb_id": "1227241",
+    "watched_date": "2026-08-22",
+    "year": 2026
+  },
+  {
     "id": "letterboxd-watch-1462942103",
     "letterboxd_url": "https://letterboxd.com/stultus/film/bethlehem-kudumba-unit/",
     "rating": 3.5,
