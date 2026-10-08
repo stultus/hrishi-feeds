@@ -1,5 +1,17 @@
 [
   {
+    "id": "letterboxd-watch-1528518351",
+    "letterboxd_url": "https://letterboxd.com/stultus/film/dark-shadows/",
+    "rating": 2.5,
+    "review_html": "<p><img src=\"https://a.ltrbxd.com/resized/film-poster/4/5/5/1/4551-dark-shadows-0-600-0-900-crop.jpg?v=714ebd58de\" /></p> <p>Watched on Thursday October 8, 2026.</p>",
+    "rewatch": false,
+    "slug": "dark-shadows-2012",
+    "title": "Dark Shadows",
+    "tmdb_id": "62213",
+    "watched_date": "2026-10-08",
+    "year": 2012
+  },
+  {
     "id": "letterboxd-watch-1478649175",
     "letterboxd_url": "https://letterboxd.com/stultus/film/thanneer-mathan-dinangal/1/",
     "rating": 4.0,
