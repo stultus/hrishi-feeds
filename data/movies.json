@@ -1,5 +1,17 @@
 [
   {
+    "id": "letterboxd-watch-1545415914",
+    "letterboxd_url": "https://letterboxd.com/stultus/film/jailer-2-2026/",
+    "rating": 2.0,
+    "review_html": "<p><img src=\"https://a.ltrbxd.com/resized/film-poster/1/1/1/7/6/5/3/1117653-jailer-2-2026-0-600-0-900-crop.jpg?v=a29f5a504f\" /></p> <p>Watched on Sunday October 18, 2026.</p>",
+    "rewatch": false,
+    "slug": "jailer-2-2026",
+    "title": "Jailer 2",
+    "tmdb_id": "1234139",
+    "watched_date": "2026-10-18",
+    "year": 2026
+  },
+  {
     "id": "letterboxd-watch-1528518351",
     "letterboxd_url": "https://letterboxd.com/stultus/film/dark-shadows/",
     "rating": 2.5,
