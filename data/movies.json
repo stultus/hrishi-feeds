@@ -1,5 +1,17 @@
 [
   {
+    "id": "letterboxd-watch-1565714827",
+    "letterboxd_url": "https://letterboxd.com/stultus/film/avaraachan-sons/",
+    "rating": 1.5,
+    "review_html": "<p><img src=\"https://a.ltrbxd.com/resized/film-poster/1/1/7/3/0/5/5/1173055-avaraachan-sons-0-600-0-900-crop.jpg?v=cdb6ce34e8\" /></p> <p>Watched on Saturday October 31, 2026.</p>",
+    "rewatch": false,
+    "slug": "avaraachan-sons-2026",
+    "title": "Avaraachan & Sons",
+    "tmdb_id": "1290035",
+    "watched_date": "2026-10-31",
+    "year": 2026
+  },
+  {
     "id": "letterboxd-watch-1545415914",
     "letterboxd_url": "https://letterboxd.com/stultus/film/jailer-2-2026/",
     "rating": 2.0,
