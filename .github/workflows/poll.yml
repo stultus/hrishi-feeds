@@ -41,6 +41,10 @@ jobs:
         run: uv run scripts/poll_letterboxd.py
 
       - name: Poll Goodreads
+        # Goodreads retired its shelf RSS feeds in Oct 2026 (now 404 for every
+        # user). Don't let this step block the Letterboxd commit until the
+        # Goodreads source is replaced.
+        continue-on-error: true
         env:
           GOODREADS_USER_ID: ${{ secrets.GOODREADS_USER_ID }}
           GOODREADS_RSS_KEY: ${{ secrets.GOODREADS_RSS_KEY }}
