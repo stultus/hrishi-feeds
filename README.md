@@ -67,6 +67,10 @@ there is). A book that appears on the shelf without any activity entry gets the 
 first saw it, which is accurate to within a day for the daily full sync. Existing books keep their
 data; only new ratings and missing fields are filled in.
 
+### Books not on Goodreads
+
+Add them by hand with the `add-book` skill (`.claude/skills/add-book/SKILL.md`; Codex finds it via `AGENTS.md`). Manual entries use ids starting with `manual-`, which the poller never matches, so syncs leave them alone. Their covers are stored in `data/covers/`.
+
 ## Schema
 
 ### `movies.json`
