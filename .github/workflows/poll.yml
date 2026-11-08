@@ -2,13 +2,8 @@ name: poll
 
 on:
   schedule:
-    # Hourly quick check: Goodreads exits after one small request when its
-    # recent activity has nothing new. Off the top of the hour, when
-    # GitHub's scheduler is busiest.
+    # Hourly, off the top of the hour when GitHub's scheduler is busiest.
     - cron: "17 * * * *"
-    # Daily full Goodreads sync, which also catches books that never showed
-    # up in the 10-entry activity feed.
-    - cron: "47 4 * * *"
   workflow_dispatch:
 
 permissions:
@@ -50,13 +45,12 @@ jobs:
           LETTERBOXD_USERNAME: ${{ secrets.LETTERBOXD_USERNAME }}
         run: uv run scripts/poll_letterboxd.py
 
-      - name: Poll Goodreads
-        id: goodreads
+      - name: Poll Readwise
+        id: readwise
         continue-on-error: true
         env:
-          GOODREADS_USER_ID: ${{ secrets.GOODREADS_USER_ID }}
-          FULL: ${{ github.event_name == 'workflow_dispatch' || github.event.schedule == '47 4 * * *' }}
-        run: uv run scripts/poll_goodreads.py $([ "$FULL" = true ] && echo --full)
+          READWISE_TOKEN: ${{ secrets.READWISE_TOKEN }}
+        run: uv run scripts/poll_readwise.py
 
       - name: Commit changes
         run: |
@@ -71,7 +65,7 @@ jobs:
           git push
 
       - name: Report failures
-        if: steps.letterboxd.outcome == 'failure' || steps.goodreads.outcome == 'failure'
+        if: steps.letterboxd.outcome == 'failure' || steps.readwise.outcome == 'failure'
         run: |
-          echo "letterboxd: ${{ steps.letterboxd.outcome }}, goodreads: ${{ steps.goodreads.outcome }}"
+          echo "letterboxd: ${{ steps.letterboxd.outcome }}, readwise: ${{ steps.readwise.outcome }}"
           exit 1

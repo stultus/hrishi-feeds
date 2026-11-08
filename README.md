@@ -1,6 +1,6 @@
 # hrishi-feeds
 
-Personal data ingestion. Polls Letterboxd (RSS) and Goodreads (public widgets) on a schedule, normalizes them
+Personal data ingestion. Polls Letterboxd (RSS) and Readwise Books (API) on a schedule, normalizes them
 to versioned JSON in `data/`, and triggers downstream Hugo rebuilds via `repository_dispatch`.
 
 The repo is single-purpose: scheduled poll → diff data files → commit on real change → notify
@@ -14,11 +14,11 @@ data/
   books.json           # array, sorted by read_date desc (nulls last)
 scripts/
   poll_letterboxd.py   # hourly poll
-  poll_goodreads.py    # hourly quick check, daily full sync
-  seed_from_csv.py     # one-time bootstrap from official CSV exports
+  poll_readwise.py     # hourly mirror of the Readwise Books finished shelf
+  seed_from_csv.py     # one-time bootstrap from official CSV exports (historical)
   _common.py           # schema validation, atomic write, slug helpers
 .github/workflows/
-  poll.yml             # cron hourly at :17, full Goodreads sync 04:47 UTC, workflow_dispatch; commits to main
+  poll.yml             # cron hourly at :17, workflow_dispatch; commits to main
   dispatch.yml         # on push to data/**, fans out repository_dispatch
 ```
 
@@ -29,15 +29,15 @@ Set in **Settings → Secrets and variables → Actions**:
 | Secret | Used by | Notes |
 | --- | --- | --- |
 | `LETTERBOXD_USERNAME` | `poll.yml` | e.g., `stultus` |
-| `GOODREADS_USER_ID` | `poll.yml` | numeric, from your Goodreads profile URL |
+| `READWISE_TOKEN` | `poll.yml` | personal access token from https://readwise.io/access_token |
 | `SITE_DEPLOY_PAT` | `dispatch.yml` | fine-grained PAT with `contents: write` on `stultus/stultus.in` and `stultus/notes-hugo` (needed to send `repository_dispatch`) |
 
 The default `GITHUB_TOKEN` is sufficient for the poll job's commit step (`permissions: contents: write` is set in the workflow).
 
 ## How it runs
 
-- `poll.yml` runs hourly (`17 * * * *`), plus a daily full Goodreads sync (`47 4 * * *`) and on
-  manual dispatch (also full). Both poll steps are `continue-on-error`, so one broken source can't
+- `poll.yml` runs hourly (`17 * * * *`) and on manual dispatch. GitHub runs scheduled
+  workflows on a best-effort basis, so in practice gaps of a few hours happen. Both poll steps are `continue-on-error`, so one broken source can't
   block the other's commit; a final step fails the job if either failed. It runs both
   poll scripts, and commits `data/` only if `git diff --quiet -- data/` returns non-zero. The
   commit message is `chore: feeds update`. `poll.yml` only triggers on schedule and manual
@@ -47,29 +47,31 @@ The default `GITHUB_TOKEN` is sufficient for the poll job's commit step (`permis
   `repository_dispatch` events with type `feeds-updated` to the two consumer repos in parallel
   (matrix strategy, `fail-fast: false`).
 
-## Goodreads source
+## Books source: Readwise
 
-Goodreads retired its shelf RSS feeds (`/review/list_rss/`) in October 2026; they now return a 404
-page for every user. Signed out, the profile page only shows "Currently Reading", and
-`/review/list` redirects to sign-in. `poll_goodreads.py` reads two public widgets instead:
+`poll_readwise.py` mirrors the **finished** shelf of Readwise Books
+([API docs](https://readwise.io/books_api), marked experimental by Readwise) into `books.json`.
+Readwise decides which books are listed, their `read_date` (`finished_reading_at`) and `rating`
+(0.25–5 in quarter steps; whole numbers are stored as ints). Every run fetches the whole shelf
+(one request for up to 1000 books), because Readwise doesn't bump `updated` when a rating
+changes.
 
-- **Updates widget** (`/widgets/user_update_widget?user=<id>`): the profile's last 10 activity
-  entries. "has read" and "rated a book" entries carry the book id, title, author, cover, a date
-  (`May 24`, no year; only the first entry of each day is dated) and the star label. Every run
-  fetches this first and **exits early** if every read/rated book is already in `books.json` with
-  the same rating.
-- **Shelf widget** (`/review/custom_widget/<id>?shelf=read&sort=date_read`): the 30 newest books on
-  the read shelf, with review URL, full title, cover and rating, but no dates. Fetched only when the
-  updates widget shows something new, or with `--full`.
+Entries are linked to Readwise by `readwise_id`. Once an entry exists, its title, author, slug,
+cover and link are kept, so hand-picked covers and links survive syncs and book page URLs on
+notes-hugo (built from `slug`) stay stable. A missing cover or ISBN is filled from Readwise's
+catalogue match. A book that leaves the finished shelf leaves `books.json`. The run refuses to
+write if the shelf comes back more than 20% smaller than `books.json`.
 
-Dates: a book's `read_date` comes from its "has read" entry (or "rated" entry if that's all
-there is). A book that appears on the shelf without any activity entry gets the date the poller
-first saw it, which is accurate to within a day for the daily full sync. Existing books keep their
-data; only new ratings and missing fields are filled in.
+History: until November 2026 the books came from Goodreads (RSS, then public widgets after
+Goodreads retired the RSS feeds). Readwise's library was imported from Goodreads, and the
+one-time switch matched every existing entry to its Readwise book, keeping the Goodreads ids and
+`goodreads_url` links for those entries. New books get `rw-<readwise id>` ids.
 
-### Books not on Goodreads
+### Books not in Readwise's catalogue
 
-Add them by hand with the `add-book` skill (`.claude/skills/add-book/SKILL.md`; Codex finds it via `AGENTS.md`). Manual entries use ids starting with `manual-`, which the poller never matches, so syncs leave them alone. Their covers are stored in `data/covers/`.
+Add them with the `add-book` skill (`.claude/skills/add-book/SKILL.md`; Codex finds it via
+`AGENTS.md`). It adds the book to Readwise through the API, runs the poller, then sets the cover
+(stored in `data/covers/`) and link on the new entry.
 
 ## Schema
 
@@ -94,16 +96,17 @@ Add them by hand with the `add-book` skill (`.claude/skills/add-book/SKILL.md`; 
 
 ```jsonc
 {
-  "id": "<goodreads numeric book id>",
+  "id": "<goodreads book id, or rw-<readwise id> for books added after the switch>",
+  "readwise_id": 6503779,         // Readwise Books id, or null
   "title": "string",
   "author": "string",
   "read_date": "YYYY-MM-DD|null",
   "added_date": "YYYY-MM-DD",
-  "rating": 4,                    // int in 1..5, or null
+  "rating": 4,                    // 0.25..5 in quarter steps (int when whole), or null
   "review_html": "string|null",
   "isbn": "string|null",
   "cover_url": "string|null",
-  "goodreads_url": "string",
+  "goodreads_url": "string|null", // book link: Goodreads, a store or publisher page (name kept for compatibility)
   "slug": "kebab-case-title-author-lastname"
 }
 ```
@@ -142,8 +145,8 @@ scrape avoids that.
 uv run scripts/seed_from_csv.py goodreads ~/Downloads/goodreads_library_export.csv
 ```
 
-Filters to rows where `Exclusive Shelf == "read"`. Cover URLs are not in the CSV, so they stay
-`null` until the next poll fills them in.
+Filters to rows where `Exclusive Shelf == "read"`. This was the original bootstrap; the seeder
+predates `readwise_id` and is kept for history only.
 
 The seeder **overwrites** `data/movies.json` / `data/books.json`. Run it once at repo bootstrap
 and never again — the pollers handle ongoing updates.
@@ -153,11 +156,10 @@ and never again — the pollers handle ongoing updates.
 ```bash
 uv sync
 export LETTERBOXD_USERNAME=stultus
-export GOODREADS_USER_ID=12345678
+export READWISE_TOKEN=...
 
 uv run scripts/poll_letterboxd.py --dry-run
-uv run scripts/poll_goodreads.py --dry-run          # quick check
-uv run scripts/poll_goodreads.py --dry-run --full   # always fetch the shelf
+uv run scripts/poll_readwise.py --dry-run
 ```
 
 `--dry-run` prints a unified diff of what would change and exits 0 without writing. Both pollers
@@ -177,5 +179,5 @@ are idempotent: running twice produces no diff.
   requires updating `_common.py:MOVIE_FIELDS`/`BOOK_FIELDS`.
 - **Author lastname for book slug.** `book_slug("The Idiot", "Fyodor Dostoevsky")` →
   `the-idiot-dostoevsky`. Single-name authors degrade gracefully.
-- **Goodreads `read_date` may be null** for shelf-only adds; sort puts those last but the
+- **`read_date` may be null** for books Readwise has no finish date for; sort puts those last but the
   `added_date` gives a stable secondary order.

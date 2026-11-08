@@ -30,11 +30,12 @@ MOVIE_FIELDS = {
 
 BOOK_FIELDS = {
     "id": str,
+    "readwise_id": (int, type(None)),
     "title": str,
     "author": str,
     "read_date": (str, type(None)),
     "added_date": str,
-    "rating": (int, type(None)),
+    "rating": (int, float, type(None)),
     "review_html": (str, type(None)),
     "isbn": (str, type(None)),
     "cover_url": (str, type(None)),
