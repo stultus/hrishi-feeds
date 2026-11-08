@@ -1,5 +1,17 @@
 [
   {
+    "id": "letterboxd-watch-1576446030",
+    "letterboxd_url": "https://letterboxd.com/stultus/film/baththa/",
+    "rating": 4.0,
+    "review_html": "<p><img src=\"https://a.ltrbxd.com/resized/film-poster/1/3/9/2/0/2/1/1392021-baththa-0-600-0-900-crop.jpg?v=aa117012a5\" /></p> <p>Watched on Saturday November 7, 2026.</p>",
+    "rewatch": false,
+    "slug": "baththa-2026",
+    "title": "Baththa",
+    "tmdb_id": "1515692",
+    "watched_date": "2026-11-07",
+    "year": 2026
+  },
+  {
     "id": "letterboxd-watch-1565714827",
     "letterboxd_url": "https://letterboxd.com/stultus/film/avaraachan-sons/",
     "rating": 1.5,
