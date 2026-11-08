@@ -1,12 +1,26 @@
 [
   {
+    "added_date": "2026-11-06",
+    "author": "Orna Krishnankutty",
+    "cover_url": null,
+    "goodreads_url": null,
+    "id": "rw-6503779",
+    "isbn": null,
+    "rating": 2.75,
+    "read_date": "2026-11-06",
+    "readwise_id": 6503779,
+    "review_html": null,
+    "slug": "pulayar-acharangal-malayalam-edition-krishnankutty",
+    "title": "Pulayar; Acharangal (Malayalam Edition)"
+  },
+  {
     "added_date": "2026-11-01",
     "author": "Maria Rose",
     "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1793074783l/262483804._SY475_.jpg",
     "goodreads_url": "https://www.goodreads.com/review/show/9069687442?utm_medium=api&utm_source=rss",
     "id": "262483804",
     "isbn": null,
-    "rating": 3,
+    "rating": 3.5,
     "read_date": "2026-11-01",
     "readwise_id": 6502857,
     "review_html": null,
@@ -453,7 +467,7 @@
     "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523311515l/37976541.jpg",
     "goodreads_url": "https://www.goodreads.com/review/show/5086275710?utm_medium=api&utm_source=rss",
     "id": "37976541",
-    "isbn": null,
+    "isbn": "9781524731663",
     "rating": 4,
     "read_date": "2022-11-05",
     "readwise_id": 6502917,
@@ -775,7 +789,7 @@
     "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1566473431l/52283963._SX318_SY475_.jpg",
     "goodreads_url": "https://www.goodreads.com/review/show/3664121024?utm_medium=api&utm_source=rss",
     "id": "52283963",
-    "isbn": null,
+    "isbn": "9781492180746",
     "rating": 5,
     "read_date": "2020-11-26",
     "readwise_id": 6503003,
@@ -1307,7 +1321,7 @@
     "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1655988385l/40121378.jpg",
     "goodreads_url": "https://www.goodreads.com/review/show/2856535537?utm_medium=api&utm_source=rss",
     "id": "40121378",
-    "isbn": null,
+    "isbn": "9780735211308",
     "rating": 4,
     "read_date": "2019-06-13",
     "readwise_id": 6503322,
@@ -1388,10 +1402,10 @@
   {
     "added_date": "2016-04-24",
     "author": "Chimamanda Ngozi Adichie",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/579250098800314148/we-should-all-be-feminists-chimamanda-ngozi-adichie",
     "goodreads_url": "https://www.goodreads.com/book/show/22738563",
     "id": "22738563",
-    "isbn": null,
+    "isbn": "9781101872932",
     "rating": 5,
     "read_date": "2017-11-20",
     "readwise_id": 6503119,
@@ -1584,7 +1598,7 @@
   {
     "added_date": "2016-10-04",
     "author": "Aaron Swartz",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/577068668249904400/the-boy-who-could-change-the-world-the-writings-of-aaron-swartz-aaron-swartz",
     "goodreads_url": "https://www.goodreads.com/book/show/23258925",
     "id": "23258925",
     "isbn": "9781620970669",
@@ -1612,7 +1626,7 @@
   {
     "added_date": "2014-09-13",
     "author": "Eric S. Raymond",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/576540905680029106/the-cathedral-the-bazaar-eric-s-raymond",
     "goodreads_url": "https://www.goodreads.com/book/show/134825",
     "id": "134825",
     "isbn": "9780596001087",
@@ -1834,6 +1848,20 @@
     "title": "മുരളി ഗോപിയുടെ കഥകൾ | Murali Gopiyude Kadhakal"
   },
   {
+    "added_date": "2013-06-18",
+    "author": "Arthur Conan Doyle",
+    "cover_url": null,
+    "goodreads_url": "https://www.goodreads.com/book/show/194373",
+    "id": "194373",
+    "isbn": "9780192123091",
+    "rating": 5,
+    "read_date": "2016-04-22",
+    "readwise_id": 6503628,
+    "review_html": null,
+    "slug": "the-memoirs-of-sherlock-holmes-sherlock-holmes-4-doyle",
+    "title": "The Memoirs of Sherlock Holmes (Sherlock Holmes, #4)"
+  },
+  {
     "added_date": "2016-04-11",
     "author": "P.K. Parakkadavu",
     "cover_url": null,
@@ -1916,6 +1944,20 @@
     "review_html": null,
     "slug": "thottuthottu-nadakkumbol-teaattttuteaattttu-nttkkumpeeaall-veerankutty",
     "title": "Thottuthottu Nadakkumbol | തൊട്ടുതൊട്ടു നടക്കുമ്പോള്‍"
+  },
+  {
+    "added_date": "2013-06-17",
+    "author": "S.K. Pottekkatt",
+    "cover_url": null,
+    "goodreads_url": "https://www.goodreads.com/book/show/12552649",
+    "id": "12552649",
+    "isbn": "9788126402588",
+    "rating": null,
+    "read_date": "2016-03-21",
+    "readwise_id": 6503642,
+    "review_html": null,
+    "slug": "lnnttn-neeaattttbukk-london-notebook-pottekkatt",
+    "title": "ലണ്ടന്‍ നോട്ട്ബുക്ക്‌ | London Notebook"
   },
   {
     "added_date": "2016-02-15",
@@ -2004,7 +2046,7 @@
   {
     "added_date": "2016-02-15",
     "author": "Gavin Aung Than",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/577068668078394642/zen-pencils-cartoon-quotes-from-inspirational-folks-gavin-aung-than",
     "goodreads_url": "https://www.goodreads.com/book/show/21411877",
     "id": "21411877",
     "isbn": "9781449457952",
@@ -2074,7 +2116,7 @@
   {
     "added_date": "2016-01-30",
     "author": "Matt Kuhn",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/577209405556462112/bro-on-the-go-barney-stinson",
     "goodreads_url": "https://www.goodreads.com/book/show/7090433",
     "id": "7090433",
     "isbn": "9781439173138",
@@ -2928,7 +2970,7 @@
   {
     "added_date": "2015-02-07",
     "author": "Harvard Business Publishing",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/576540902469743508/management-tips-from-harvard-business-review-harvard-business-review",
     "goodreads_url": "https://www.goodreads.com/book/show/12561890",
     "id": "12561890",
     "isbn": "9781422142356",
@@ -3078,6 +3120,48 @@
     "review_html": null,
     "slug": "moonnam-nilayile-ezham-number-muri-muunnaan-nilyile-eelllaan-nmpr-murri-theekkuni",
     "title": "Moonnam Nilayile Ezham Number Muri | മൂന്നാം  നിലയിലെ ഏഴാം  നമ്പര്‍ മുറി"
+  },
+  {
+    "added_date": "2014-12-06",
+    "author": "K. Satchidanandan",
+    "cover_url": null,
+    "goodreads_url": "https://www.goodreads.com/book/show/23699546",
+    "id": "23699546",
+    "isbn": "9788126429059",
+    "rating": 5,
+    "read_date": "2014-12-07",
+    "readwise_id": 6503155,
+    "review_html": null,
+    "slug": "naalamidam-naalaamittn-satchidanandan",
+    "title": "Naalamidam | നാലാമിടം"
+  },
+  {
+    "added_date": "2014-12-06",
+    "author": "Sathyan Madakkara",
+    "cover_url": null,
+    "goodreads_url": "https://www.goodreads.com/book/show/23699716",
+    "id": "23699716",
+    "isbn": "9788126420063",
+    "rating": 3,
+    "read_date": "2014-12-07",
+    "readwise_id": 6503147,
+    "review_html": null,
+    "slug": "mazha-peythilla-mayilum-vannilla-mlll-peytill-myilun-vnnill-madakkara",
+    "title": "Mazha peythilla mayilum vannilla | മഴ പെയ്തില്ല മയിലും  വന്നില്ല"
+  },
+  {
+    "added_date": "2014-12-06",
+    "author": "A. Harisankar Kartha",
+    "cover_url": null,
+    "goodreads_url": "https://www.goodreads.com/book/show/23699883",
+    "id": "23699883",
+    "isbn": "9788126443567",
+    "rating": 5,
+    "read_date": "2014-12-07",
+    "readwise_id": 6503139,
+    "review_html": "<b><i>\"ഉടുപ്പുകള്‍ക്കുള്ളില്‍ <br/>നിറയെ <br/>അസ്വസ്ഥരായ ചിത്രശലഭങ്ങളാണ്<br/><br/>ഓരോ കുടുക്കഴിക്കുമ്പോഴും  <br/>നമുക്ക് ചുറ്റുമുള്ള മരങ്ങള്‍ <br/>കൂടുതല്‍ പൂവുകള്‍ വിടര്‍ത്തുന്നു.<br/><br/>വസന്തം  ചിത്രശലഭങ്ങളെയല്ല,<br/>ചിത്രശലഭങ്ങള്‍ വസന്തത്തെ കൊണ്ടുവരുന്നു. <br/><br/>നമ്മളീ വേനലുകളെ ഇനിയും  സഹിക്കണോ? \" </i></b><br/><br/>ദിഗ്ഭ്രമം  സൃഷ്ടിക്കുന്ന മനോഹര കവിതകള്‍",
+    "slug": "pisconia-masku-piskeeaanniy-msku-kartha",
+    "title": "Pisconia Masku | പിസ്കോണിയ മസ്കു"
   },
   {
     "added_date": "2014-12-06",
@@ -3236,7 +3320,7 @@
   {
     "added_date": "2013-06-15",
     "author": "A.A. Milne",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/577244590156583933/the-house-at-pooh-corner-a-a-milne",
     "goodreads_url": "https://www.goodreads.com/book/show/235597",
     "id": "235597",
     "isbn": "9780142404676",
@@ -3670,7 +3754,7 @@
   {
     "added_date": "2014-09-02",
     "author": "Randy Pausch",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/576892746169884985/the-last-lecture-randy-pausch-and-jeffrey-zaslow",
     "goodreads_url": "https://www.goodreads.com/book/show/2318271",
     "id": "2318271",
     "isbn": "9781401323257",
@@ -3892,6 +3976,20 @@
     "title": "Manuscript Found in Accra"
   },
   {
+    "added_date": "2013-06-17",
+    "author": "SULOCHANA NALAPPATT",
+    "cover_url": null,
+    "goodreads_url": "https://www.goodreads.com/book/show/18084934",
+    "id": "18084934",
+    "isbn": null,
+    "rating": 5,
+    "read_date": "2013-05-27",
+    "readwise_id": 6503656,
+    "review_html": "മൂന്നാര്‍ മനോഹരമാണ്.  കുറച്ചു നാളെങ്കിലും  മൂന്നാറില്‍ താമസിച്ച ഒരാള്‍ക്ക് മൂന്നാറിനെ പ്രണയിക്കാതെ തിരിച്ചു പോവാനാവില്ല. മനോഹരമായ ഒരു ഭൂപ്രദേശം  എന്നതിലുപരി മൂന്നാറിനെ മനോഹരമാക്കുന്ന മറ്റു ചിലതുണ്ട്.  മനുഷ്യരും , കാലാവസ്ഥയും ,പുഴയും , മരങ്ങളും  ,പള്ളികളും  , കോവിലുകളും  , കല്ലറകളും , നിഗൂഢതകളും  എന്നു വേണ്ട ഒരാളെ ഏതെങ്കിലും  രീതിയില്‍ സ്വാധീനിക്കാവുന്ന എന്തെങ്കിലും  എല്ലാവര്‍ക്കും  മൂന്നാറില്‍ കാണാം. നാലു വര്‍ഷത്തെ മൂന്നാര്‍ ജീവിതം , അതിനു ശേഷമുള്ള മൂന്നാര്‍ ഓര്‍മകള്‍ എന്നിവയൊക്കെയാവാം  ഈ‌ പുസ്തകത്തെ ഇത്രയധികം  ഇഷ്ടപ്പെടാന്‍ ഇടയാക്കിയത്.  മൂന്നാറിനെ പറ്റി ഞങ്ങള്‍ ചിലര്‍ക്കു മാത്രം  അറിയാവുന്നത് എന്ന് കരുതിയിരുന്ന ചില കാര്യങ്ങള്‍ ഈ പുസ്തകത്തില്‍ കണ്ട്  പലപ്പോഴും ഞാന്‍ അമ്പരന്നു. <br/><br/> 'മനുഷ്യരെ മോഹവലയത്തില്‍പ്പെടുത്തുന്ന മൂന്നാറിന്റെ<br/>ആത്മാവില്‍ നിന്നൊരു തുണ്ട് നിങ്ങള്‍ക്കു പതിച്ചുനല്‍കാം ഞാന്‍,<br/>ആര്‍ക്കും ഇടിച്ചുനിരത്താനാകാത്ത ഒരു തുണ്ട്... '  എന്ന സുലോചന നാലപ്പാടിന്റെ വാഗ്ദാനം  തീര്‍ച്ചയായും  പാലിക്കപ്പെട്ടിട്ടുണ്ട്. <br/>ഒരിക്കലെങ്കിലും  നിങ്ങള്‍ മൂന്നാറില്‍ പോയിട്ടുണ്ടെങ്കില്‍ തീര്‍ച്ഛയായും  നിങ്ങള്‍ക്കീ‌ പുസ്തകം  ഇഷ്ടപ്പെടും.",
+    "slug": "muunnaarrinrre-kth-munnarinte-kadha-nalappatt",
+    "title": "മൂന്നാറിന്റെ കഥ | Munnarinte Kadha"
+  },
+  {
     "added_date": "2014-08-25",
     "author": "എം.ടി. വാസുദേവന്‍നായര്‍ | M.T.Vasudevan Nair",
     "cover_url": null,
@@ -4044,48 +4142,6 @@
     "review_html": null,
     "slug": "alices-adventures-in-wonderland-through-the-looking-glass-carroll",
     "title": "Alice’s Adventures in Wonderland / Through the Looking-Glass"
-  },
-  {
-    "added_date": "2014-12-06",
-    "author": "K. Satchidanandan",
-    "cover_url": null,
-    "goodreads_url": "https://www.goodreads.com/book/show/23699546",
-    "id": "23699546",
-    "isbn": "9788126429059",
-    "rating": 5,
-    "read_date": null,
-    "readwise_id": 6503155,
-    "review_html": null,
-    "slug": "naalamidam-naalaamittn-satchidanandan",
-    "title": "Naalamidam | നാലാമിടം"
-  },
-  {
-    "added_date": "2014-12-06",
-    "author": "Sathyan Madakkara",
-    "cover_url": null,
-    "goodreads_url": "https://www.goodreads.com/book/show/23699716",
-    "id": "23699716",
-    "isbn": "9788126420063",
-    "rating": 3,
-    "read_date": null,
-    "readwise_id": 6503147,
-    "review_html": null,
-    "slug": "mazha-peythilla-mayilum-vannilla-mlll-peytill-myilun-vnnill-madakkara",
-    "title": "Mazha peythilla mayilum vannilla | മഴ പെയ്തില്ല മയിലും  വന്നില്ല"
-  },
-  {
-    "added_date": "2014-12-06",
-    "author": "A. Harisankar Kartha",
-    "cover_url": null,
-    "goodreads_url": "https://www.goodreads.com/book/show/23699883",
-    "id": "23699883",
-    "isbn": "9788126443567",
-    "rating": 5,
-    "read_date": null,
-    "readwise_id": 6503139,
-    "review_html": "<b><i>\"ഉടുപ്പുകള്‍ക്കുള്ളില്‍ <br/>നിറയെ <br/>അസ്വസ്ഥരായ ചിത്രശലഭങ്ങളാണ്<br/><br/>ഓരോ കുടുക്കഴിക്കുമ്പോഴും  <br/>നമുക്ക് ചുറ്റുമുള്ള മരങ്ങള്‍ <br/>കൂടുതല്‍ പൂവുകള്‍ വിടര്‍ത്തുന്നു.<br/><br/>വസന്തം  ചിത്രശലഭങ്ങളെയല്ല,<br/>ചിത്രശലഭങ്ങള്‍ വസന്തത്തെ കൊണ്ടുവരുന്നു. <br/><br/>നമ്മളീ വേനലുകളെ ഇനിയും  സഹിക്കണോ? \" </i></b><br/><br/>ദിഗ്ഭ്രമം  സൃഷ്ടിക്കുന്ന മനോഹര കവിതകള്‍",
-    "slug": "pisconia-masku-piskeeaanniy-msku-kartha",
-    "title": "Pisconia Masku | പിസ്കോണിയ മസ്കു"
   },
   {
     "added_date": "2014-10-07",
@@ -4412,7 +4468,7 @@
   {
     "added_date": "2013-07-07",
     "author": "William Shakespeare",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/577209405594077447/the-merchant-of-venice-william-shakespeare",
     "goodreads_url": "https://www.goodreads.com/book/show/24128",
     "id": "24128",
     "isbn": "9780743477567",
@@ -4720,10 +4776,10 @@
   {
     "added_date": "2013-06-25",
     "author": "Miguel de Cervantes Saavedra",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/576540901534430844/don-quixote-miguel-de-cervantes-saavedra",
     "goodreads_url": "https://www.goodreads.com/book/show/3836",
     "id": "3836",
-    "isbn": null,
+    "isbn": "9780486829692",
     "rating": 5,
     "read_date": null,
     "readwise_id": 6503537,
@@ -4790,7 +4846,7 @@
   {
     "added_date": "2013-06-19",
     "author": "Shirley Bogart",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/576540910404843423/the-prince-and-the-pauper-mark-twain-and-mark-twain",
     "goodreads_url": "https://www.goodreads.com/book/show/162249",
     "id": "162249",
     "isbn": "9780866119733",
@@ -4874,7 +4930,7 @@
   {
     "added_date": "2013-06-19",
     "author": "Rabindranath Tagore",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/576540902481727305/gitanjali-rabindranath-tagore",
     "goodreads_url": "https://www.goodreads.com/book/show/66414",
     "id": "66414",
     "isbn": "9781420926309",
@@ -4902,7 +4958,7 @@
   {
     "added_date": "2013-06-18",
     "author": "Jules Verne",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/576540902495085614/twenty-thousand-leagues-under-the-sea-jules-verne",
     "goodreads_url": "https://www.goodreads.com/book/show/12856474",
     "id": "12856474",
     "isbn": "9781447817666",
@@ -4958,21 +5014,7 @@
   {
     "added_date": "2013-06-18",
     "author": "Arthur Conan Doyle",
-    "cover_url": null,
-    "goodreads_url": "https://www.goodreads.com/book/show/194373",
-    "id": "194373",
-    "isbn": "9780192123091",
-    "rating": 5,
-    "read_date": null,
-    "readwise_id": 6503628,
-    "review_html": null,
-    "slug": "the-memoirs-of-sherlock-holmes-sherlock-holmes-4-doyle",
-    "title": "The Memoirs of Sherlock Holmes (Sherlock Holmes, #4)"
-  },
-  {
-    "added_date": "2013-06-18",
-    "author": "Arthur Conan Doyle",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/579250098252338665/sherlock-holmes-the-complete-novels-and-stories-volumes-i-and-ii-arthur-conan-doyle",
     "goodreads_url": "https://www.goodreads.com/book/show/3581",
     "id": "3581",
     "isbn": "9780553212419",
@@ -5052,20 +5094,6 @@
     "review_html": null,
     "slug": "endymion-spring-skelton",
     "title": "Endymion Spring"
-  },
-  {
-    "added_date": "2013-06-17",
-    "author": "S.K. Pottekkatt",
-    "cover_url": null,
-    "goodreads_url": "https://www.goodreads.com/book/show/12552649",
-    "id": "12552649",
-    "isbn": "9788126402588",
-    "rating": 4,
-    "read_date": null,
-    "readwise_id": 6503642,
-    "review_html": null,
-    "slug": "lnnttn-neeaattttbukk-london-notebook-pottekkatt",
-    "title": "ലണ്ടന്‍ നോട്ട്ബുക്ക്‌ | London Notebook"
   },
   {
     "added_date": "2013-06-17",
@@ -5195,22 +5223,8 @@
   },
   {
     "added_date": "2013-06-17",
-    "author": "SULOCHANA NALAPPATT",
-    "cover_url": null,
-    "goodreads_url": "https://www.goodreads.com/book/show/18084934",
-    "id": "18084934",
-    "isbn": null,
-    "rating": 5,
-    "read_date": null,
-    "readwise_id": 6503656,
-    "review_html": "മൂന്നാര്‍ മനോഹരമാണ്.  കുറച്ചു നാളെങ്കിലും  മൂന്നാറില്‍ താമസിച്ച ഒരാള്‍ക്ക് മൂന്നാറിനെ പ്രണയിക്കാതെ തിരിച്ചു പോവാനാവില്ല. മനോഹരമായ ഒരു ഭൂപ്രദേശം  എന്നതിലുപരി മൂന്നാറിനെ മനോഹരമാക്കുന്ന മറ്റു ചിലതുണ്ട്.  മനുഷ്യരും , കാലാവസ്ഥയും ,പുഴയും , മരങ്ങളും  ,പള്ളികളും  , കോവിലുകളും  , കല്ലറകളും , നിഗൂഢതകളും  എന്നു വേണ്ട ഒരാളെ ഏതെങ്കിലും  രീതിയില്‍ സ്വാധീനിക്കാവുന്ന എന്തെങ്കിലും  എല്ലാവര്‍ക്കും  മൂന്നാറില്‍ കാണാം. നാലു വര്‍ഷത്തെ മൂന്നാര്‍ ജീവിതം , അതിനു ശേഷമുള്ള മൂന്നാര്‍ ഓര്‍മകള്‍ എന്നിവയൊക്കെയാവാം  ഈ‌ പുസ്തകത്തെ ഇത്രയധികം  ഇഷ്ടപ്പെടാന്‍ ഇടയാക്കിയത്.  മൂന്നാറിനെ പറ്റി ഞങ്ങള്‍ ചിലര്‍ക്കു മാത്രം  അറിയാവുന്നത് എന്ന് കരുതിയിരുന്ന ചില കാര്യങ്ങള്‍ ഈ പുസ്തകത്തില്‍ കണ്ട്  പലപ്പോഴും ഞാന്‍ അമ്പരന്നു. <br/><br/> 'മനുഷ്യരെ മോഹവലയത്തില്‍പ്പെടുത്തുന്ന മൂന്നാറിന്റെ<br/>ആത്മാവില്‍ നിന്നൊരു തുണ്ട് നിങ്ങള്‍ക്കു പതിച്ചുനല്‍കാം ഞാന്‍,<br/>ആര്‍ക്കും ഇടിച്ചുനിരത്താനാകാത്ത ഒരു തുണ്ട്... '  എന്ന സുലോചന നാലപ്പാടിന്റെ വാഗ്ദാനം  തീര്‍ച്ചയായും  പാലിക്കപ്പെട്ടിട്ടുണ്ട്. <br/>ഒരിക്കലെങ്കിലും  നിങ്ങള്‍ മൂന്നാറില്‍ പോയിട്ടുണ്ടെങ്കില്‍ തീര്‍ച്ഛയായും  നിങ്ങള്‍ക്കീ‌ പുസ്തകം  ഇഷ്ടപ്പെടും.",
-    "slug": "muunnaarrinrre-kth-munnarinte-kadha-nalappatt",
-    "title": "മൂന്നാറിന്റെ കഥ | Munnarinte Kadha"
-  },
-  {
-    "added_date": "2013-06-17",
     "author": "Gabriel García Márquez",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/579250098800352321/chronicle-of-a-death-foretold-gabriel-garcia-marquez",
     "goodreads_url": "https://www.goodreads.com/book/show/23878",
     "id": "23878",
     "isbn": "9781400034710",
@@ -5322,7 +5336,7 @@
   {
     "added_date": "2013-06-17",
     "author": "J.R.R. Tolkien",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/576927929688530246/the-lord-of-the-rings-one-volume-j-r-r-tolkien",
     "goodreads_url": "https://www.goodreads.com/book/show/33",
     "id": "33",
     "isbn": "9780618640157",
@@ -5504,7 +5518,7 @@
   {
     "added_date": "2013-06-16",
     "author": "Homer",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/577209405738827958/the-odyssey-by-homer-the-adventure-classic-behind-the-major-motion-picture-homer",
     "goodreads_url": "https://www.goodreads.com/book/show/1381",
     "id": "1381",
     "isbn": "9780143039952",
@@ -5532,7 +5546,7 @@
   {
     "added_date": "2013-06-16",
     "author": "Herman Melville",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/577244590116197494/moby-dick-diversion-classics-herman-melville",
     "goodreads_url": "https://www.goodreads.com/book/show/153747",
     "id": "153747",
     "isbn": "9780142437247",
@@ -5560,7 +5574,7 @@
   {
     "added_date": "2013-06-16",
     "author": "Antoine de Saint-Exupéry",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/577015891580611695/the-little-prince-antoine-de-saint-exupery",
     "goodreads_url": "https://www.goodreads.com/book/show/157993",
     "id": "157993",
     "isbn": "9780152023980",
@@ -5644,7 +5658,7 @@
   {
     "added_date": "2013-06-16",
     "author": "Aesop",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/579250098502595059/fables-aesop-translated-by-roger-lestrange-illustrated-by-stephen-gooden-aesop",
     "goodreads_url": "https://www.goodreads.com/book/show/17352566",
     "id": "17352566",
     "isbn": "9781435136304",
@@ -5742,7 +5756,7 @@
   {
     "added_date": "2013-06-16",
     "author": "Charles Dickens",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/577209405533792024/a-tale-of-two-cities-charles-dickens-and-charles-dickens",
     "goodreads_url": "https://www.goodreads.com/book/show/1953",
     "id": "1953",
     "isbn": "9780141439600",
@@ -5910,7 +5924,7 @@
   {
     "added_date": "2013-06-16",
     "author": "Jules Verne",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/576963115285419836/a-journey-to-the-interior-of-the-earth-jules-verne",
     "goodreads_url": "https://www.goodreads.com/book/show/32829",
     "id": "32829",
     "isbn": "9780553213973",
@@ -5938,7 +5952,7 @@
   {
     "added_date": "2013-06-16",
     "author": "Erich Maria Remarque",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/579250098292129903/all-quiet-on-the-western-front-erich-maria-remarque",
     "goodreads_url": "https://www.goodreads.com/book/show/355697",
     "id": "355697",
     "isbn": "9780449213940",
@@ -5966,7 +5980,7 @@
   {
     "added_date": "2013-06-16",
     "author": "Stephen W. Hawking",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/579250098252338139/a-brief-history-of-time-stephen-hawking",
     "goodreads_url": "https://www.goodreads.com/book/show/3869",
     "id": "3869",
     "isbn": "9780553380163",
@@ -6148,7 +6162,7 @@
   {
     "added_date": "2013-06-16",
     "author": "Alexandre Dumas",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/577209405533790760/the-count-of-monte-cristo-alexandre-dumas",
     "goodreads_url": "https://www.goodreads.com/book/show/7126",
     "id": "7126",
     "isbn": "9780140449266",
@@ -6666,7 +6680,7 @@
   {
     "added_date": "2013-06-15",
     "author": "R.K. Narayan",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/579250099139115847/malgudi-days-r-k-narayan",
     "goodreads_url": "https://www.goodreads.com/book/show/14082",
     "id": "14082",
     "isbn": "9780143039655",
@@ -6680,10 +6694,10 @@
   {
     "added_date": "2013-06-15",
     "author": "Paulo Coelho",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/576927929202336314/the-zahir-a-novel-of-obsession-paulo-coelho",
     "goodreads_url": "https://www.goodreads.com/book/show/1427",
     "id": "1427",
-    "isbn": null,
+    "isbn": "9780061758010",
     "rating": 4,
     "read_date": null,
     "readwise_id": 6503669,
@@ -6694,10 +6708,10 @@
   {
     "added_date": "2013-06-15",
     "author": "Paulo Coelho",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/576927929202438257/by-the-river-piedra-i-sat-down-and-wept-a-novel-of-forgiveness-paulo-coelho",
     "goodreads_url": "https://www.goodreads.com/book/show/1428",
     "id": "1428",
-    "isbn": null,
+    "isbn": "9780061859953",
     "rating": 3,
     "read_date": null,
     "readwise_id": 6503674,
@@ -6890,7 +6904,7 @@
   {
     "added_date": "2013-06-15",
     "author": "Leo Tolstoy",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/576540910435151460/war-and-peace-leo-tolstoy",
     "goodreads_url": "https://www.goodreads.com/book/show/18243",
     "id": "18243",
     "isbn": "9780375760648",
@@ -7114,7 +7128,7 @@
   {
     "added_date": "2013-06-15",
     "author": "Paulo Coelho",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/576927929202421829/the-fifth-mountain-a-novel-paulo-coelho",
     "goodreads_url": "https://www.goodreads.com/book/show/4005",
     "id": "4005",
     "isbn": "9780722536544",
@@ -7184,7 +7198,7 @@
   {
     "added_date": "2013-06-15",
     "author": "Robin Sharma",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/576927930695264247/the-monk-who-sold-his-ferrari-a-remarkable-story-about-living-your-dreams-robin-sharma",
     "goodreads_url": "https://www.goodreads.com/book/show/43877",
     "id": "43877",
     "isbn": "9780062515674",
@@ -7226,7 +7240,7 @@
   {
     "added_date": "2013-06-15",
     "author": "J.D. Salinger",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/576963113829127138/the-catcher-in-the-rye-j-d-salinger",
     "goodreads_url": "https://www.goodreads.com/book/show/5107",
     "id": "5107",
     "isbn": "9780316769174",
@@ -7464,7 +7478,7 @@
   {
     "added_date": "2013-06-15",
     "author": "Jonathan Swift",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/576540901647288341/gullivers-travels-into-several-remote-nations-of-the-world-jonathan-swift",
     "goodreads_url": "https://www.goodreads.com/book/show/7733",
     "id": "7733",
     "isbn": "9780141439495",
@@ -7506,7 +7520,7 @@
   {
     "added_date": "2013-06-15",
     "author": "Paulo Coelho",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/576927929202994520/the-alchemist-paulo-coelho",
     "goodreads_url": "https://www.goodreads.com/book/show/865",
     "id": "865",
     "isbn": "9780061122415",
@@ -7534,7 +7548,7 @@
   {
     "added_date": "2013-06-15",
     "author": "William Shakespeare",
-    "cover_url": null,
+    "cover_url": "https://bookwise.com/product/cover/576540910428515495/macbeth-william-shakespeare-and-sbp-editors",
     "goodreads_url": "https://www.goodreads.com/book/show/8852",
     "id": "8852",
     "isbn": "9780743477109",
