@@ -14,6 +14,7 @@ Run with --dry-run to print the diff without writing.
 from __future__ import annotations
 
 import argparse
+import datetime as dt
 import difflib
 import json
 import os
@@ -21,6 +22,7 @@ import sys
 import urllib.parse
 import urllib.request
 from typing import Any
+from zoneinfo import ZoneInfo
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from _common import (  # noqa: E402
@@ -35,6 +37,10 @@ from _common import (  # noqa: E402
 
 BOOKS_PATH = DATA_DIR / "books.json"
 API = "https://readwise.io/books/api/v1"
+
+# Readwise stores reading dates as instants; Kindle ones are local midnight
+# (e.g. 18:30Z for IST), so take the calendar date in this zone.
+LOCAL_TZ = ZoneInfo("Asia/Kolkata")
 
 # Refuse to write if the shelf shrinks by more than this, to guard against a
 # bad API response wiping the page.
@@ -66,7 +72,17 @@ def display_author(author: str | None) -> str:
 
 
 def date_part(ts: str | None) -> str | None:
-    return ts[:10] if ts else None
+    if not ts:
+        return None
+    return dt.datetime.fromisoformat(ts.replace("Z", "+00:00")).astimezone(LOCAL_TZ).date().isoformat()
+
+
+def store_link(product: dict[str, Any]) -> str | None:
+    if product.get("store_url"):
+        return product["store_url"]
+    if product.get("asin"):
+        return f"https://www.amazon.in/dp/{product['asin']}"
+    return None
 
 
 def merge(existing: list[dict[str, Any]], shelf: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -95,7 +111,7 @@ def merge(existing: list[dict[str, Any]], shelf: list[dict[str, Any]]) -> list[d
                 "review_html": None,
                 "isbn": None,
                 "cover_url": None,
-                "goodreads_url": product.get("store_url"),
+                "goodreads_url": store_link(product),
                 "slug": slug,
             }
         book["read_date"] = date_part(rw["finished_reading_at"]) or book.get("read_date")
